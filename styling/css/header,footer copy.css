@@ -1,0 +1,101 @@
+/* header */
+.navTop {
+    position: fixed;
+    height: 70px;
+    z-index: 5;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.navTop::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.nav_container {
+    display: flex;
+    height: 70px;
+}
+.logo {
+    display: inline-block;
+    flex: 9;
+    margin-top: 15px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.logo img {
+    width: 50vw;
+}
+
+.openHB {
+    flex: 1;
+    position: relative;
+    top: 10px;
+    right: 15px;
+}
+.hamLine {
+    width: 35px;
+    height: 5px;
+    background-color: #000;
+    margin: 6px 0;
+    transition: 0.4s;
+    cursor: pointer;
+        top: 50%;
+    left: 50%;
+}
+
+.change .HB1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .HB2 {
+    opacity: 0;
+}
+
+.change .HB3 {
+    transform: rotate(45deg) translate(-9px, -6px);
+}
+
+/* footer */
+.footer{
+    padding: 5%;
+}
+.footer_logo{
+    width: 30vw;
+    margin-bottom: 15px;
+}
+.footer_sns{
+    bottom: 0;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+.footer_sns img{
+    width: 15px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+    width: 35px;
+}
+.footer_sec2{
+    font-size: 14px;
+}
+.add1{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.add3{
+    padding: 10px 0 8px 0;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.resist{
+    padding: 15px 15px 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+@font-face {
+     font-family: 'S-CoreDream-3Light';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}

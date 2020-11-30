@@ -1,0 +1,98 @@
+.imgSliderArea{
+    box-sizing: border-box;
+}
+
+.animation_canvas{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        position: relative; 
+    }
+    .slider_panel{
+        width: 700%;
+        position: relative;
+    }
+    .slider_image{
+        width: calc(700vw/7);
+        height: 100vh;
+        float: left;
+    }
+    .slider_text_panel{
+        position: absolute;
+        left: 50px;
+    }
+    .slider_text_panel{
+        position: absolute;
+        top: 65vh;
+        left: 5%;
+    }
+    .slider_text{
+        position: absolute;
+        width: 70%;
+        height: 300px;
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+    .slider_text h1{
+        color: white;
+        text-shadow: 1px 0 1px #5f4233;
+        font-size: 27px;
+        padding: 5% 0 0 5%;
+        font-weight: bolder;
+    }
+    .slider_text p{
+        color: white;
+        text-shadow: 1px 0 1px #5f4233;
+        font-size: 15px;
+        padding: 5%;
+        font-weight: bolder;
+    }
+    .control_panel{
+        position: absolute;
+        bottom: 1%;
+        left: 15px;
+        height: 55px;
+        overflow: hidden;
+    }
+    .control_button{
+        cursor: pointer;
+        float: left;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        font-weight: bold;
+        color: white;
+    }
+    .button{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        text-align: center;
+        font-size: 18px;
+        transform: translate(-50%,-50%);
+        text-shadow: 1px 0 1px black;
+    }
+    .control_button.active{
+        color: #bf8365;
+        font-size: 1.1em;
+        bottom: 5px;
+    }
+    .left_right_panel{
+        position: relative;
+    }
+    .left_control{
+        position: absolute;
+        left: 10px;
+        top: 50vh;
+        cursor: pointer;
+        width: 25px;
+        opacity: 0.6;
+    }
+    .right_control{
+        position: absolute;
+        right: 10px;
+        top: 50vh;
+        cursor: pointer;
+        width: 25px;
+        opacity: 0.6;
+    }

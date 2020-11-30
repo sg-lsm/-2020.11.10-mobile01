@@ -1,0 +1,123 @@
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.1s;
+}
+.sidenav a:hover{
+    color: #000;
+}
+.side_nav_container{
+    margin-top: 20px;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: -20px;
+    color: #000;
+    margin-right: 30px;
+    text-align: right;
+    font-size: 70px;
+}
+.main{
+    padding: 20px;
+    transition: 0.5s;
+    margin-right: 0;
+}
+@media screen and (max-height:450px) {
+    .sidenav{padding-top: 15px;}
+    .sidenav a{font-size: 15px;}
+}
+    .blankArea{
+        content: "";
+        display: block;
+        padding: 50px;
+    }
+    .titleArea{
+        position: relative;
+        background-color: #e49a3909;
+    }
+    .title_img_sec{
+        padding: 5%;
+    }
+    .title_caption_sec{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 70px;
+        font-weight: bold;
+        opacity: 0.8;
+        text-align: center;
+    }
+    .titleMoreArea{
+        padding: 5%;
+        margin-top: 15px;
+    }
+    .t_caption{
+        text-align: center;
+        font-size: 16px;
+        opacity: 0.8;
+    }
+    .t_caption_span{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .reservationArea{
+        display: block;
+        text-align: center;
+        width: 50%;
+        border: 1px solid #bf8365;
+        color: #bf8365;
+        padding: 5% 0;
+        margin-left: 25%;
+        margin-top: 35px;
+    }
+    .reservationArea:hover{
+        background-color: #bf8365;
+        color: #fff;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .img_and_caption{
+        padding: 5%;
+        position: relative;
+        display: block;
+    }
+    .styling_line{
+        width: 1px;
+        height: 40px;
+        border: 1px solid #bf8365;
+        background-color: #bf8365;
+        bottom: 30px;
+        position: absolute;
+    }
+    .caption_section{
+        margin-left: 15px;
+    }
+    .caption_section .p01{
+        opacity: 0.8;
+        font-weight: bold;
+        font-size: 18px;
+        font-style: italic;
+        margin-top: 30px;
+    }
+    .caption_section .p02{
+        font-size: 22px;
+        font-weight: bolder;
+        margin-top: 10px;
+        opacity: 0.9;
+    }

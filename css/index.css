@@ -1,0 +1,204 @@
+.bodyWrap{
+        margin-bottom: 30px;
+    }
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.1s;
+}
+.sidenav a:hover{
+    color: #000;
+}
+.side_nav_container{
+    margin-top: 20px;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: -20px;
+    color: #000;
+    margin-right: 30px;
+    text-align: right;
+    font-size: 70px;
+}
+.main{
+    padding: 20px;
+    transition: 0.5s;
+    margin-right: 0;
+}
+@media screen and (max-height:450px) {
+    .sidenav{padding-top: 15px;}
+    .sidenav a{font-size: 15px;}
+}
+    .plannerArea{
+        padding: 10%;
+        box-sizing: border-box;
+    }
+    .planner_img{
+        width: 50%;
+    }
+    .planner_img img{
+        padding: 20%;
+        margin:-20% 50% 0 50%;
+    }
+    .p_cap_01{
+        text-align: center;
+        font-size: xx-large;
+        opacity: 0.8;
+        font-weight: bold;
+    }
+    .p_cap_02{
+        font-size: large;
+        font-weight: bold;
+        opacity: 0.6;
+        padding: 5%;
+        margin-bottom: 15px;
+    }
+    .p_cap_03{
+        display: inline-block;
+        border: 1px solid #bf8365;
+        width: 50%;
+        text-align: center;
+        margin-left: 25%;
+        padding: 20px 0;
+        color: #bf8365;
+    }
+    .p_cap_03:hover{
+        background-color: #bf8365;
+        color: #fff;
+        transition: 0.5s;
+    }
+    .stylingArea{
+        padding: 10%;
+        background-color: #bf836517;
+        margin-bottom: 15px;
+    }
+    .style_title{
+        font-size: xx-large;
+        font-weight: bold;
+        text-align: center;
+    }
+    .style_caption{
+        padding: 5%;
+        font-size: large;
+        font-weight: bold;
+        opacity: 0.6;
+        margin-bottom: 15px;
+    }
+    .style_link{
+        display: inline-block;
+        font-size: medium;
+        font-weight: normal;
+        border: 1px solid #bf8365;
+        color: #bf8365;
+        text-align: center;
+        width: 50%;
+        padding: 20px 0;
+        margin-left: 25%;
+        margin-bottom: 15px;
+    }
+    .style_link:hover{
+        background-color: #bf8365;
+        color: #fff;
+        transition: 0.5s;
+    }
+    .styling_sec02{
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .styling_grid01{
+        flex:5;
+    }
+    .styling_grid02{
+        flex:5;
+    }
+    .S_img_and_caption1,.S_img_and_caption2{
+        padding: 2%;
+        font-size: 14px;
+    }
+    .S_img_and_caption1 .image,.S_img_and_caption2 .image{
+        padding: 5%;
+    }
+    .style_line{
+        width: 1px;
+        height: 40px;
+        top: -20px;
+        border: 1px solid #bf8365;
+        position: absolute;
+        z-index: 3;
+        opacity: 0.7;
+        left: -2px;
+    }
+    .S_caption{
+        margin-left: 15px;
+        position: relative;
+        padding: 2%;
+    }
+    .S_caption .cap01{
+        width: 80%;
+    }
+    .S_caption .cap02{
+        width: 80%;
+        font-weight: bolder;
+        margin-top: 5px;
+    }
+    .caption .cap01{
+        opacity: 0.8;
+    }
+    .caption .cap02{
+        font-weight: bold;
+        font-style: italic;
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .invitationArea{
+        padding: 1%;       
+    }
+    .contactArea{
+        padding: 5%;
+        background-color: #bf836517;
+    }
+    .c_title .p01{
+        text-align: center;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    .c_title .p02{
+        padding: 3%;
+        font-weight: bold;
+        opacity: 0.8;
+        margin-bottom: 15px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .contact_link{
+        display: inline-block;
+        font-size: medium;
+        font-weight: normal;
+        border: 1px solid #bf8365;
+        color: #bf8365;
+        text-align: center;
+        width: 50%;
+        padding: 20px 0;
+        margin-left: 25%;
+        margin-bottom: 15px;
+    }
+    .contact_link:hover{
+        background-color: #bf8365;
+        color:#fff;
+        transition: 0.5s;
+    }

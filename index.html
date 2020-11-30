@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header,footer copy.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/main/main.js"></script>
+    <script src="js/main/slider.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="navTop">
+        <div class="nav_container">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="로고"></a>
+            </div>
+            <div class="openHB" onclick="openNav();">
+                <div class="hamLine HB1"></div>
+                <div class="hamLine HB2"></div>
+                <div class="hamLine HB3"></div>
+            </div>
+            <div class="sidenav" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav();">&times;</a>
+                <div class="side_nav_container">
+                    <a href="styling.html">Styling</a>
+                    <a href="planner.html">Planner</a>
+                    <a href="collection.html">Collection</a>
+                    <a href="location.html">Location</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- body -->
+    <div class="bodyWrap">
+        <div class="imgSliderArea">
+            <div class="animation_canvas"> 
+                <div class="slider_panel"> 
+                    <img src="img/mo_wedding01.jpg" alt="웨딩이미지" class="slider_image">
+                    <img src="img/mo_wedding02.jpg" alt="웨딩이미지" class="slider_image">
+                    <img src="img/mo_wedding03.jpg" alt="웨딩이미지" class="slider_image">
+                    <img src="img/mo_wedding04.jpg" alt="웨딩이미지" class="slider_image">
+                    <img src="img/mo_wedding05.jpg" alt="웨딩이미지" class="slider_image">
+                </div>
+                <div class="slider_text_panel">
+                    <div class="slider_text">
+                        <a href="index.html" class="slider_text_link">
+                            <h1>I'm Happy To Meet You</h1>
+                            <p>여러분의 하나뿐인 날을 함께할 수 있어 진심으로 행복합니다.</p>
+                        </a>
+                    </div>
+                    <div class="slider_text">
+                        <a href="styling.html" class="slider_text_link">
+                            <h1>차별화 된 웨딩스타일</h1>
+                            <p>전문가의 손길로 완성되는 스타일링을 소개합니다.</p>
+                        </a>
+                    </div>
+                    <div class="slider_text">
+                        <a href="collection.html" class="slider_text_link">
+                            <h1>보석같은 웨딩컬렉션</h1>
+                            <p>저희만의 아름다운 컬렉션으로 기억에 남을 하루를 선물합니다.</p>
+                        </a>
+                    </div>
+                    <div class="slider_text">
+                        <a href="planner.html" class="slider_text_link">
+                            <h1>웨딩의 첫걸음</h1>
+                            <p>많은 경험과 노하우를 가진 플래너들이 당신을 기다립니다.</p>
+                        </a>
+                    </div>
+                    <div class="slider_text">
+                        <a href="contact/stylingReservation.html" class="slider_text_link">
+                            <h1>실력과 진심으로</h1>
+                            <p>누구보다 아름다운 날을 위해 저희에게 문의하세요.</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="control_panel">
+                    <div class="control_button"><div class="button">1</div></div>
+                    <div class="control_button"><div class="button">2</div></div>
+                    <div class="control_button"><div class="button">3</div></div>
+                    <div class="control_button"><div class="button">4</div></div>
+                    <div class="control_button"><div class="button">5</div></div>
+                </div>
+                <div class="left_right_panel">
+                    <img src="img/leftArrow.png" alt="왼쪽 화살표" class="left_control">
+                    <img src="img/rightArrow.png" alt="오른쪽 화살표" class="right_control">
+                </div>
+            </div>
+        </div>
+        <div class="plannerArea">
+            <div class="planner_img">
+                <img src="img/planner.png" alt="플래너">
+            </div>
+            <div class="planner_caption">
+                <div class="p_cap_01">
+                    Planner Of WiseWedding
+                </div>
+                <div class="p_cap_02">
+                    실력과 진심으로 결혼준비 전 과정을 함께하는 와이즈웨딩 플래너가 오랜 경력과 노하우, 트렌디한 감각으로 완벽한 웨딩데이를 만들어드립니다. 와이즈웨딩의 전문 웨딩플래너와 함께 1:1 맞춤 웨딩 스타일링을 시작해보세요.
+                </div>
+                <a href="planner.html" class="p_cap_03">플래너 자세히 보기</a>
+            </div>
+        </div>
+        <div class="stylingArea">
+            <div class="styling_sec01">
+                <div class="style_title">
+                    Styling
+                </div>
+                <div class="style_caption">
+                    실력과 진심을 담은 와이즈웨딩 플래너의 웨딩 스타일링, 특별한 웨딩데이를 위해 과정에서 결과까지 최고의 웨딩스타일링을 약속합니다.
+                    <br />
+                </div>
+                <a href="styling.html" class="style_link">
+                    스타일링 바로가기
+                </a>
+            </div>
+            <div class="styling_sec02">
+                <div class="styling_grid01">
+                    <div class="S_img_and_caption1">
+                        <a href="styling/styling01.html" class="image">
+                            <img src="img/styling1.jpg" alt="스타일링 이미지">
+                        </a>
+                        <div class="S_caption">
+                            <div class="style_line"></div>
+                            <div class="cap01">Styling by Jeon Hyeon-mi</div>
+                            <div class="cap02">John&amp;Isabel</div>
+                        </div>
+                    </div>
+                    <div class="S_img_and_caption2">
+                        <a href="styling/styling07.html" class="image">
+                            <img src="img/styling2.jpg" alt="스타일링 이미지">
+                        </a>
+                        <div class="S_caption">
+                            <div class="style_line"></div>
+                            <div class="cap01">Styling by Do Gyeongmi</div>
+                            <div class="cap02">Luke&amp;Jessie</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="styling_grid02">
+                    <div class="S_img_and_caption1">
+                        <a href="styling/styling08.html" class="image">
+                            <img src="img/styling4.jpg" alt="스타일링 이미지">
+                        </a>
+                        <div class="S_caption">
+                            <div class="style_line"></div>
+                            <div class="cap01">Styling by Choi Sojeong</div>
+                            <div class="cap02">Aaron&amp;Mandelina</div>
+                        </div>
+                    </div>
+                    <div class="S_img_and_caption2">
+                        <a href="styling/styling02.html" class="image">
+                            <img src="img/styling3.jpg" alt="스타일링 이미지">
+                        </a>
+                        <div class="S_caption">
+                            <div class="style_line"></div>
+                            <div class="cap01">Styling by Kim Sarang</div>
+                            <div class="cap02">Henry&amp;Luna</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="invitationArea">
+            <div class="invitaion_img">
+                <img src="img/invitaiton.jpg" alt="초대장">
+            </div>
+        </div>
+        <div class="contactArea">
+            <div class="contact_sec">
+                <div class="c_title">
+                    <p class="p01">I'M HAPPY, TOO!</p>
+                    <p class="p02">행복한 결혼준비를 와이즈웨딩과 함께 시작해보세요.</p>
+                </div>
+                <a href="contact.html" class="contact_link">
+                    상담신청 바로가기
+                </a>
+            </div>
+        </div>
+        <div class="rotateImg">
+            <a href="contact/simpleReservation.html">
+                <img src="img/rotateImg.png" alt="상담이미지">
+            </a>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer_sec1">
+            <div class="footer_logo">
+                <img src="img/logo.png" alt="로고">
+            </div>
+            <div class="footer_sns">
+                <a href="https://www.youtube.com/"><img src="img/youtube icon.png" alt="유튜브 아이콘"></a>
+                <a href="https://www.instagram.com/?hl=ko"><img src="img/insta icon.png" alt="인스타그램 아이콘"></a>
+                <a href="https://twitter.com/?lang=ko"><img src="img/tweet icon.png" alt="트위터 아이콘"></a>
+                <a href="https://ko-kr.facebook.com/"><img src="img/facebook icon.png" alt="페이스북 아이콘"></a>
+            </div>
+        </div>
+        <div class="footer_sec2">
+            <div class="address">
+                <p class="add1">경기도 성남시 분당구 돌마로 73 7층</p>
+                <p class="add2">T. 031-719-3688</p>
+                <p class="add2">F. 031-719-3688</p>
+                <p class="add3">http://sn.ezenac.co.kr/</p> <hr />
+            </div>
+            <hr />
+            <div class="resist">
+                <p>사업자등록번호:865-87-00785<br />대표:엄성만</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

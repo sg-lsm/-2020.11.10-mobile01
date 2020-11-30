@@ -1,0 +1,132 @@
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.1s;
+}
+.sidenav a:hover{
+    color: #000;
+}
+.side_nav_container{
+    margin-top: 20px;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: -20px;
+    color: #000;
+    margin-right: 30px;
+    text-align: right;
+    font-size: 70px;
+}
+.main{
+    padding: 20px;
+    transition: 0.5s;
+    margin-right: 0;
+}
+@media screen and (max-height:450px) {
+    .sidenav{padding-top: 15px;}
+    .sidenav a{font-size: 15px;}
+}
+    .blankArea{
+        padding: 45px;
+    }
+    .titleArea{
+        position: relative;
+    }
+    .title_caption_sec{
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 70px;
+        font-weight: bold;
+        opacity: 0.8;
+        text-align: center;
+    }
+    .title_img_sec{
+        padding: 5%;
+    }
+    .locationArea{
+        padding: 5%;
+    }
+    .caption_sec{
+        margin-top: 25px;
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .cap_sec01{
+        padding: 5%;
+        text-align: center;
+    }
+    .cap_sec01 p{
+        font-size: 14px;
+        opacity: 0.9;
+        font-weight: 550;
+        margin-bottom: 20px;
+        color: rgb(100, 58, 25);
+    }
+    .cap_sec02{
+        display: block;
+        width: 50%;
+        border:1px solid #bf8365;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 3% 1%;
+        color: #bf8365;
+        cursor: pointer;
+    }
+    .cap_sec02:hover{
+        background-color: #bf8365;
+        color: #fff;
+        transition: 0.5s;
+    }
+    .transfer_section{
+        margin-bottom: 50px;
+    }
+    .trans_bus,.trans_subway,.trans_car{
+        padding: 2%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .bus_img,.subway_img,.car_img{
+        width: 100px;
+        margin: 0 auto;
+    }
+    .bus_caption,.subway_caption,.car_caption{
+        margin-top: 30px;
+    }
+    .transferTitle{
+        margin-bottom: 30px;
+        font-size: larger;
+        color: #e0946d;
+    }
+    .hr{
+        margin-top: 10px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .cp01{
+        opacity: 0.6;
+        padding: 0 0 0 15px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }

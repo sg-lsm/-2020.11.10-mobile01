@@ -1,0 +1,116 @@
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.1s;
+}
+.sidenav a:hover{
+    color: #000;
+}
+.side_nav_container{
+    margin-top: 20px;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: -20px;
+    color: #000;
+    margin-right: 30px;
+    text-align: right;
+    font-size: 70px;
+}
+.main{
+    padding: 20px;
+    transition: 0.5s;
+    margin-right: 0;
+}
+@media screen and (max-height:450px) {
+    .sidenav{padding-top: 15px;}
+    .sidenav a{font-size: 15px;}
+}
+        .blankArea{
+        content: "";
+        display: block;
+        padding: 35px;
+    }
+    .titleArea{
+        position: relative;
+        background-color: #e49a3909;
+    }
+    .title_img_sec{
+        padding: 5%;
+    }
+    .title_caption_sec{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 70px;
+        font-weight: bold;
+        opacity: 0.8;
+        text-align: center;
+    }
+    .stylingArea{
+        padding: 5%;
+    }
+    .styling_sec01{
+        position: relative;
+    }
+    .style_line{
+        position: absolute;
+        width: 1px;
+        height: 50px;
+        border: 1px solid rgba(235, 141, 52, 0.576);
+    }
+    .sec01_styler{
+        font-size: large;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+    .sec01_brides{
+        font-size: x-large;
+        font-weight: bold;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .sec01_caption{
+        margin-left: 20px;
+        width: 90%;
+        opacity: 0.6;
+        text-indent: 5px;
+        font-weight: bolder;
+        margin-top: 15px;
+        font-size: small;
+    }
+    .styling_sec02{
+        display: block;
+        width: 50%;
+        padding: 4% 0;
+        color: #bf8365;
+        border:1px solid #bf8365;
+        cursor: pointer;
+        text-align: center;
+        margin: 30px 0 30px 50%;
+        transform: translateX(-50%);
+    }
+    .styling_sec02:hover{
+        background-color: #bf8365;
+        color: #fff;
+        transition: 0.5s;
+    }
+    .sec03_img{
+        padding: 2% 0 3% 0;
+    }

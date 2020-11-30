@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header,footer copy.css">
+    <link rel="stylesheet" href="css/location.css">
+    <script src="js/main/main.js"></script>
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <div class="navTop">
+        <div class="nav_container">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="로고"></a>
+            </div>
+            <div class="openHB" onclick="openNav();">
+                <div class="hamLine HB1"></div>
+                <div class="hamLine HB2"></div>
+                <div class="hamLine HB3"></div>
+            </div>
+            <div class="sidenav" id="mySidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav();">&times;</a>
+               <div class="side_nav_container">
+                    <a href="styling.html">Styling</a>
+                    <a href="planner.html">Planner</a>
+                    <a href="collection.html">Collection</a>
+                    <a href="location.html">Location</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!-- body -->
+    <div class="bodyWrap">
+        <div class="blankArea"></div>
+        <div class="titleArea">
+            <div class="title_img_sec">
+                <img src="img/flower ring.png" alt="화관">
+            </div>
+            <div class="title_caption_sec">
+                Location
+            </div>
+        </div>
+        <div class="locationArea">
+            <div class="loc_section">
+                <div class="map_sec">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.672265775866!2d127.10781995125188!3d37.35026697974018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b59c5d7697313%3A0xbba08f656485ef2c!2z7J207KCg7JWE7Lm0642w66-47Lu07ZOo7YSw7ZWZ7JuQIOyEseuCqOu2hOuLueygkA!5e0!3m2!1sko!2skr!4v1603248894125!5m2!1sko!2skr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="caption_sec">
+                    <div class="cap_sec01">
+                        <p class="p01">경기도 성남시 분당구 돌마로 73 7층</p>
+                        <p class="p02">Tel : 031-719-3688</p>
+                        <p class="p03">HP : sn.ezenac.co.kr</p>
+                    </div>
+                    <a class="cap_sec02" href="https://www.google.com/maps/place/%EC%9D%B4%EC%A0%A0%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8%EC%BB%B4%ED%93%A8%ED%84%B0%ED%95%99%EC%9B%90+%EC%84%B1%EB%82%A8%EB%B6%84%EB%8B%B9%EC%A0%90/@37.3502712,127.10782,17z/data=!3m1!4b1!4m5!3m4!1s0x357b59c5d7697313:0xbba08f656485ef2c!8m2!3d37.350267!4d127.110014?hl=ko" target="_blank">지도 바로가기
+                    </a>
+                </div>
+            </div>
+            <div class="transfer_section">
+                <div class="trans_bus">
+                    <div class="bus_img">
+                        <img src="img/bus.png" alt="버스">
+                    </div>
+                    <div class="bus_caption">
+                        <div class="transferTitle">
+                            By Bus<hr class="hr" />
+                        </div>
+                        <div class="bus_more">
+                            <p>버스정류장 하차 도보 2분<br /> (미금역 사거리 근처 버스정류장 하차)</p>
+                            <p>[미금역 사거리] 하차 후 도보 2분</p>
+                            <p class="cp01">242번, 3426번, 4419번</p>
+                            <p>[미금역 3번출구] 하차 후 도보 5분</p>
+                            <p class="cp01">242번, 4419번</p>
+                            <p>[까치마을, 2001아울렛] 하차 후 도보 8분</p>
+                            <p class="cp01">4212번</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="trans_subway">
+                    <div class="subway_img">
+                        <img src="img/subway.png" alt="지하철">
+                    </div>
+                    <div class="subway_caption">
+                        <div class="transferTitle">
+                            By Subway<hr class="hr" />
+                        </div>
+                        <div class="subway_more">
+                            <p>분당선 미금역</p>
+                            <p class="cp01">도보 시 2번 출구 이용, 약 2분 소요</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="trans_car">
+                    <div class="car_img">
+                        <img src="img/car.png" alt="자가용">
+                    </div>
+                    <div class="car_caption">
+                        <div class="transferTitle">
+                            By Car<hr class="hr" />
+                        </div>
+                        <div class="car_more">
+                            <p>미금역 사거리에서</p>
+                            <p class="cp01">정자동 방면으로 직진,<br />미금역 2번출구방면으로<br />(1층 신한은행)</p>
+                            <p>주차</p>
+                            <p class="cp01">우방코아빌딩(1층 신한은행)과<br />청담휴먼스타빌(1층 피자헛)사잇길로 진입 후 좌측</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rotateImg">
+            <a href="contact/simpleReservation.html">
+                <img src="img/rotateImg.png" alt="상담이미지">
+            </a>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer_sec1">
+            <div class="footer_logo">
+                <img src="img/logo.png" alt="로고">
+            </div>
+            <div class="footer_sns">
+                <a href="https://www.youtube.com/"><img src="img/youtube icon.png" alt="유튜브 아이콘"></a>
+                <a href="https://www.instagram.com/?hl=ko"><img src="img/insta icon.png" alt="인스타그램 아이콘"></a>
+                <a href="https://twitter.com/?lang=ko"><img src="img/tweet icon.png" alt="트위터 아이콘"></a>
+                <a href="https://ko-kr.facebook.com/"><img src="img/facebook icon.png" alt="페이스북 아이콘"></a>
+            </div>
+        </div>
+        <div class="footer_sec2">
+            <div class="address">
+                <p class="add1">경기도 성남시 분당구 돌마로 73 7층</p>
+                <p class="add2">T. 031-719-3688</p>
+                <p class="add2">F. 031-719-3688</p>
+                <p class="add3">http://sn.ezenac.co.kr/</p> <hr />
+            </div>
+            <hr />
+            <div class="resist">
+                <p>사업자등록번호:865-87-00785<br />대표:엄성만</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

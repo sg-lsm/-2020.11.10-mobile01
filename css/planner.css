@@ -1,0 +1,111 @@
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.1s;
+}
+.sidenav a:hover{
+    color: #000;
+}
+.side_nav_container{
+    margin-top: 20px;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: -20px;
+    color: #000;
+    margin-right: 30px;
+    text-align: right;
+    font-size: 70px;
+}
+.main{
+    padding: 20px;
+    transition: 0.5s;
+    margin-right: 0;
+}
+@media screen and (max-height:450px) {
+    .sidenav{padding-top: 15px;}
+    .sidenav a{font-size: 15px;}
+}
+
+    .blankArea{
+        content: "";
+        display: block;
+        padding: 50px;
+    }
+    .titleArea{
+        position: relative;
+        background-color: #e49a3909;
+    }
+    .title_img_sec{
+        padding: 5%;
+    }
+    .title_caption_sec{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 70px;
+        font-weight: bold;
+        opacity: 0.8;
+        text-align: center;
+    }
+    .titleMoreArea{
+        padding: 5%;
+    }
+    .t_caption{
+        text-align: center;
+        font-size: 20px;
+        opacity: 0.8;
+    }
+    .img_and_caption{
+        padding: 5%;
+    }
+    .caption_section{
+        padding: 5%;
+    }
+    .caption_section .p01{
+        font-size: 25px;
+        font-weight: bolder;
+        opacity: 0.8;
+    }
+    .caption_section .p02{
+        font-size: 20px;
+        font-weight: bold;
+        opacity: 0.8;
+        margin-top: 13px;
+        text-indent: 8px;
+    }
+    .reserve_sec1,.reserve_sec2{
+        display: block;
+        border: 1px solid #bf8365;
+        color: #bf8365;
+        text-align: center;
+        margin-top: 10px;
+        padding: 3% 0;
+        font-size: large;
+    }
+    .reserve_sec1:hover{
+        background-color: #bf8365;
+        color:#fff;
+        transition: 0.5s;
+    }
+    .reserve_sec2:hover{
+        background-color: #bf8365;
+        color:#fff;
+        transition: 0.5s;
+    }

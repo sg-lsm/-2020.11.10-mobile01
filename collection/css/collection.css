@@ -1,0 +1,88 @@
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.1s;
+}
+.sidenav a:hover{
+    color: #000;
+}
+.side_nav_container{
+    margin-top: 20px;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: -20px;
+    color: #000;
+    margin-right: 30px;
+    text-align: right;
+    font-size: 70px;
+}
+.main{
+    padding: 20px;
+    transition: 0.5s;
+    margin-right: 0;
+}
+@media screen and (max-height:450px) {
+    .sidenav{padding-top: 15px;}
+    .sidenav a{font-size: 15px;}
+}
+    .bodyWrap{
+        margin-bottom: 15px;
+    }
+    .blankArea{
+        padding: 45px;
+    }
+    .titleArea{
+        position: relative;
+    }
+    .title_img_sec{
+        padding: 5%;
+    }
+    .title_caption_sec{
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 70px;
+        font-weight: bold;
+        opacity: 0.8;
+        text-align: center;
+    }
+    .sub_nav_sec{
+        padding: 2% 5%;
+        vertical-align: middle;
+        font-size: large;
+        font-weight: bold;
+    }
+    .img_and_caption{
+        display: block;
+        position: relative;
+        margin-top: 15px;
+        padding: 3%;
+    }
+    .caption_sec{
+        margin-top: 10px;
+        font-size: 16px;
+        border-left: 3px solid #bf865f;
+        padding-left: 10px;
+    }    
+    .sub_nav_content{
+        border-left: 3px solid #bf865b;
+        padding-left: 30px;
+    }
